@@ -7,7 +7,7 @@ RUN npm install -g grunt-cli
 
 ADD package.json app.js ./
 ADD html html
-
+  
 
 CMD ["node","app.js"]
 EXPOSE 3010
